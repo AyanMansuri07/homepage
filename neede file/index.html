@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobPortal - Find Your Dream Job</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- <header class="main-header">
+        <div class="container">
+            <h1 class="logo">JobPortal</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+
+    <header class="header">
+        <div class="logo">Hire<span>Sphere</span></div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#contact">Contact</a>
+            <!-- Registration button----------------- -->
+            <div class="dropdown">
+                <button class="dropbtn">    Login here    </button>
+                <div class="dropdown-content">
+                  <a href="user_registration.html">as User </a>
+                  <a href="company_registration.html">as Company</a>
+                  
+                </div>
+              </div>
+            <!-- login button----------------------- -->
+            <!-- <div class="dropdown">
+                <button class="dropbtn">Login</button>
+                <div class="dropdown-content">
+                  <a href="#">as User </a>
+                  <a href="#">as Company</a>
+                  
+                </div> -->
+              </div>
+
+
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Find Your Dream Job Today</h2>
+            <p>Search thousands of jobs, from entry-level to executive roles.</p>
+            <form class="search-form">
+                <input type="text" placeholder="Job title, skills, or company" class="search-input">
+                <input type="text" placeholder="Location" class="search-input">
+                <button type="submit" class="btn-search">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="featured-jobs" id="jobs">
+        <div class="container">
+            <h3>Featured Jobs</h3>
+            <ul class="job-list">
+                <li>
+                    <h4>Software Engineer</h4>
+                    <p>Company: TechCorp | Location: Remote</p>
+                    <a href="inner_jobs.html" class="btn-apply">Apply Now</a>
+                </li>
+                <li>
+                    <h4>Marketing Specialist</h4>
+                    <p>Company: MarketPro | Location: New York, NY</p>
+                    <a href="inner_jobs.html" class="btn-apply">Apply Now</a>
+                </li>
+                <li>
+                    <h4>Data Analyst</h4>
+                    <p>Company: DataGenix | Location: San Francisco, CA</p>
+                    <a href="inner_jobs.html" class="btn-apply">Apply Now</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about-us" id="about">
+        <div class="container">
+            <h3>About Us</h3>
+            <p>HireSphere is committed to connecting job seekers with top employers worldwide. With thousands of opportunities available, we make finding your dream job simple and efficient.</p>
+        </div>
+    </section>
+
+    <footer class="main-footer" id="contact">
+        <div class="container">
+            <p>Contact Us: hiresphere@jobportal.com | Phone: +1 234 567 890</p>
+            <p>&copy; 2025 HireSphere. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
